@@ -11,21 +11,22 @@ namespace BasicPraogramming
         static void Main(string[] args)
         {
 
-            int i, n;
-            double s = 0.0;
-
+            int chk_year;
             
-            Console.WriteLine("Calculate the harmonic series and their sum:\n");
+            Console.Write("Check whether a given year is leap year or not : ");
+            
+            
+            Console.WriteLine("Input an year : ");
+            chk_year = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("Input the number of terms : ");
-            n = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine();
-            for (i = 1; i <= n; i++)
-            {
-                Console.WriteLine("1/{0} + ", i);
-                s += 1 / (float)i;
-            }
-            Console.WriteLine("\nSum of Series upto {0} terms : {1} ", n, s);
+            if ((chk_year % 400) == 0)
+                Console.WriteLine("{0} is a leap year : ", chk_year);
+            else if ((chk_year % 100) == 0)
+                Console.WriteLine("{0} is not a leap year : ", chk_year);
+            else if ((chk_year % 4) == 0)
+                Console.WriteLine("{0} is a leap year : ", chk_year);
+            else
+                Console.WriteLine("{0} is not a leap year : ", chk_year);
             Console.ReadLine();
         }
        
