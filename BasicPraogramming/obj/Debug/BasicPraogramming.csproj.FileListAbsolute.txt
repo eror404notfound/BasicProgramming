@@ -1,0 +1,8 @@
+C:\Users\lenovo\source\repos\BasicPraogramming\BasicPraogramming\bin\Debug\BasicPraogramming.exe.config
+C:\Users\lenovo\source\repos\BasicPraogramming\BasicPraogramming\bin\Debug\BasicPraogramming.exe
+C:\Users\lenovo\source\repos\BasicPraogramming\BasicPraogramming\bin\Debug\BasicPraogramming.pdb
+C:\Users\lenovo\source\repos\BasicPraogramming\BasicPraogramming\obj\Debug\BasicPraogramming.csproj.AssemblyReference.cache
+C:\Users\lenovo\source\repos\BasicPraogramming\BasicPraogramming\obj\Debug\BasicPraogramming.csproj.SuggestedBindingRedirects.cache
+C:\Users\lenovo\source\repos\BasicPraogramming\BasicPraogramming\obj\Debug\BasicPraogramming.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\BasicPraogramming\BasicPraogramming\obj\Debug\BasicPraogramming.exe
+C:\Users\lenovo\source\repos\BasicPraogramming\BasicPraogramming\obj\Debug\BasicPraogramming.pdb
