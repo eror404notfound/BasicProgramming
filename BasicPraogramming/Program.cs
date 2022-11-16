@@ -11,26 +11,36 @@ namespace BasicPraogramming
         static void Main(string[] args)
         {
 
-            char ch;
+            int num1, num2, num3;
+            
+            Console.Write("Find the largest of three numbers:\n");
 
-            Console.WriteLine("Enter any character: ");
-            ch = Convert.ToChar(Console.ReadLine());
+            Console.Write("Input the 1st number :");
+            num1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Input the  2nd number :");
+            num2 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Input the 3rd  number :");
+            num3 = Convert.ToInt32(Console.ReadLine());
 
-
-            // Condition for vowel checking
-            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U')
+            if (num1 > num2)
             {
-
-                Console.WriteLine(ch + " is Vowel.");
-
+                if (num1 > num3)
+                {
+                    Console.Write("The 1st Number is the greatest among three. \n\n");
+                }
+                else
+                {
+                    Console.Write("The 3rd Number is the greatest among three. \n\n");
+                }
             }
-            else if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))
-            {
-                Console.WriteLine(ch + " is Consonant.");
-            }
-
+            else if (num2 > num3)
+                Console.Write("The 2nd Number is the greatest among three \n\n");
+            else
+                Console.Write("The 3rd Number is the greatest among three \n\n");
             Console.ReadLine();
-
         }
+       
+
     }
+    
 }
