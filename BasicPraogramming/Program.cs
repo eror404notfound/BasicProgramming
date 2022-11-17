@@ -10,27 +10,20 @@ namespace BasicPraogramming
     {
         static void Main(string[] args)
         {
+            double result;
+            Console.WriteLine("Enter The Power");
+            int Power = int.Parse(Console.ReadLine());
+            int a = 2;
+            for (int i = 0; i <= Power; i++)
+            {
+                result = Math.Pow(a, i);
+                Console.WriteLine(a + " power of " + i + " is " + result);
+                Console.ReadLine();
+            }
 
-            int chk_year;
-            
-            Console.Write("Check whether a given year is leap year or not : ");
-            
-            
-            Console.WriteLine("Input an year : ");
-            chk_year = Convert.ToInt32(Console.ReadLine());
 
-            if ((chk_year % 400) == 0)
-                Console.WriteLine("{0} is a leap year : ", chk_year);
-            else if ((chk_year % 100) == 0)
-                Console.WriteLine("{0} is not a leap year : ", chk_year);
-            else if ((chk_year % 4) == 0)
-                Console.WriteLine("{0} is a leap year : ", chk_year);
-            else
-                Console.WriteLine("{0} is not a leap year : ", chk_year);
-            Console.ReadLine();
+
         }
-       
-
     }
     
 }
