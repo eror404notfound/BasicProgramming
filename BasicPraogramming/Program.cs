@@ -6,34 +6,22 @@ using System.Threading.Tasks;
 
 namespace BasicPraogramming
 {
-    internal class program
+    internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the number to find the prime Factorisation : ");
-            int num = Convert.ToInt32(Console.ReadLine());  
-            for (int div = 2; div * div <=num; div++)
-            {
-                while (num % div == 0)
-                {
-                    num = num / div;
-                    Console.WriteLine(div + " ");   
-                }
-            }
-            if (num !=1)
-            {
-                Console.WriteLine(num);
-                Console.ReadLine();
-
-            }
-
-            
-               
-          
-
-
-
+            Console.WriteLine("enter the 1st number");
+            double num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("enter the 2nd number");
+            double num2 = Convert.ToInt32(Console.ReadLine());
+            double quotient = 0, remainder = 0;
+            quotient = num1 / num2;
+            remainder = num1 % num2;
+            Console.WriteLine($"{num1}/{num2} ,Quotient is : {quotient} ");
+            Console.WriteLine($"{num1}%{num2} ,Remainder is : {remainder} ");
+            Console.ReadLine();
         }
+   
     }
     
 }
